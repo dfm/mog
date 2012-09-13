@@ -29,9 +29,12 @@ To try the demo, you need to build the C-extension "in place":
 
     python setup.pt build_ext --inplace
 
-Then, you can run the demo and it will save a plot called ``demo.png`` if
-you have ``matplotlib`` installed:
+Then, you can run the demo (as long as you have matplotlib installed):
 
 ::
 
     python demo.py
+
+It will save a plot called ``demo.png`` that should look something like:
+
+.. image:: https://raw.github.com/dfm/mog/master/demo-result.png

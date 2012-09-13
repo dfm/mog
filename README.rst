@@ -27,7 +27,7 @@ To try the demo, you need to build the C-extension "in place":
 
 ::
 
-    python setup.pt build_ext --inplace
+    python setup.py build_ext --inplace
 
 Then, you can run the demo (as long as you have matplotlib installed):
 
